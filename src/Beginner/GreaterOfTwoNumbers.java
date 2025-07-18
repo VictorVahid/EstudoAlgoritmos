@@ -1,4 +1,4 @@
-package iniciante;
+package Beginner;
 
 import java.util.Scanner;
 
@@ -9,10 +9,6 @@ public class GreaterOfTwoNumbers {
         int numberOne = sc.nextInt();
         System.out.println("Digite o segundo número: ");
         int numberTwo = sc.nextInt();
-        if (numberOne > numberTwo){
-            System.out.printf("O número %d é maior",numberOne);
-        }else {
-            System.out.printf("O número %d é maior",numberTwo);
-        }
+        System.out.printf("O número %d é maior", Math.max(numberOne, numberTwo));
     }
 }

@@ -1,4 +1,4 @@
-package iniciante;
+package Beginner;
 
 public class HelloWorld {
     public static void main(String[] args) {
