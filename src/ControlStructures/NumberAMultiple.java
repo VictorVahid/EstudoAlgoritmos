@@ -13,5 +13,6 @@ public class NumberAMultiple {
         }else {
             System.out.printf("%d não é múltiplo de 3 e 5 ao mesmo tempo", number);
         }
+        sc.close();
     }
 }

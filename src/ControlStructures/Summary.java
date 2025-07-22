@@ -13,5 +13,6 @@ public class Summary {
             soma += i;
         }
         System.out.println(soma);
+        sc.close();
     }
 }

@@ -15,5 +15,6 @@ public class FactorialNumber {
             number = factorial;
         }
         System.out.printf("Fatorial de !%d é: %d",numberEnter,factorial);
+        sc.close();
     }
 }

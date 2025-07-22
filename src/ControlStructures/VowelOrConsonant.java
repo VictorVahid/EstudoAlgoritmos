@@ -16,5 +16,6 @@ public class VowelOrConsonant {
         } else {
             System.out.printf("%s é Consoante", letter);
         }
+        sc.close();
     }
 }

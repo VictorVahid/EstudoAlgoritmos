@@ -12,5 +12,6 @@ public class NFirstEvenNumbers_Review {
             int numeroPar = i * 2;
             System.out.println(numeroPar);
         }
+        sc.close();
     }
 }
